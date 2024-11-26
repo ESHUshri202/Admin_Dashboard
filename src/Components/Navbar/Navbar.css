@@ -1,0 +1,42 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #000;
+    margin-bottom: 1px;
+    background: white;
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.logo{
+    width: 42px;
+    height: 42px;
+    color: orange;
+}
+
+.navbar-admin-login{
+    width: 22px;
+    height: 22px;
+}
+
+
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    }
+    .navbar-logo{
+        width: 32px;
+        height: 32px;
+    }
+    .navbar-admin-login{
+        width: 18px ;
+        height: 18px;
+    }
+}

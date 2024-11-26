@@ -1,0 +1,40 @@
+.list-permission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 470px;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 6px;
+    background: white;
+}
+
+.listpermission-allusers{
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.listpermission-format-main{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.listpermission-format{
+    align-items: center;
+    font-weight: 500;
+}
